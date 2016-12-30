@@ -29,3 +29,11 @@ Event.create name: 'Game Day',
 
 Event.create name: 'Game Day',
              start_time: DateTime.strptime("03/12/2017 18:00", "%m/%d/%Y %H:%M")
+
+Player.create first_name:    'Paul',
+              last_name:     'Downing',
+              home_town:     'Wisconsin Rapids',
+              college:       'University of Minnesota - Twin Cities',
+              number:        34,
+              favorite_beer: 'Widmer Hefeweizen',
+              nickname:      'The Iron Hammer'
