@@ -1,0 +1,75 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ */
+@import "bootstrap";
+
+
+/* Custom Color Variables */
+$team-blue: #6cb9e1;
+$background-grey: #373a3c;
+$hover-orange: #fb8000;
+
+.tm-blue-back {
+  background-color: $team-blue;
+}
+
+
+/* General App Coloring */
+
+body {
+  background-color: $background-grey;
+}
+
+.navbar {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+ul.nav {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-family: sans-serif;
+}
+.nav li {
+    display: inline-block;
+    width: 19%;
+    margin: 0;
+    padding: 0;
+}
+.nav a {
+    text-align: center;
+    padding: 12px 0 13px 0;
+    margin: 0;
+    display: block;
+    color: #FFF;
+}
+.nav a:hover {
+    background: $hover-orange;
+    text-decoration: none;
+    color: #000;
+}
+
+ul.nav li:first-child a{
+
+}
+ul.nav li:last-child a {
+
+}​
+
+#banner-image {
+  padding-left: 0px;
+  padding-right: 0px;
+}
