@@ -1,7 +1,8 @@
-= week_calendar(number_of_weeks: 4, events: @events) do |date, events|
+= month_calendar(events: @events) do |date, events|
   = date.day
 
   - events.each do |event|
     %div
       = event.name
       = time_only(event.start_time)
+

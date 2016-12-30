@@ -77,20 +77,37 @@ ul.nav li:last-child a {
   padding-right: 0px;
 }
 
-.simple-calendar .has-events {
-  background-color: $hover-orange;
-}
+/* Calendar classes */
 
-.simple-calendar .next-month {
-  background-color: $team-blue;
-}
+.simple-calendar {
+  .day {}
 
-.future {
-  background-color: $team-blue;
-}
+  .wday-0 {}
+  .wday-1 {}
+  .wday-2 {}
+  .wday-3 {}
+  .wday-4 {}
+  .wday-5 {}
+  .wday-6 {}
 
-.past {
-  background-color: #000;
-}
+  .today {}
+  .past {
+    background-color: #333433;
+  }
+  .future {
+    background-color: $team-blue;
+  }
 
+  .start-date {}
+
+  .prev-month {}
+  .next-month {
+    background-color: $team-blue;
+  }
+  .current-month {}
+
+  .has-events {
+    background-color: $hover-orange;
+  }
+}
 
