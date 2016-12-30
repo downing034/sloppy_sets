@@ -11,6 +11,7 @@
  * It is generally better to create a new file per style scope.
  *
  */
+@import "bootstrap-sprockets";
 @import "bootstrap";
 
 
@@ -23,12 +24,15 @@ $hover-orange: #fb8000;
   background-color: $team-blue;
 }
 
-
 /* General App Coloring */
 
 body {
   background-color: $background-grey;
 }
+
+
+
+/* Navbar stuff */
 
 .navbar {
   border-top-left-radius: 0;
@@ -73,3 +77,5 @@ ul.nav li:last-child a {
   padding-left: 0px;
   padding-right: 0px;
 }
+
+
