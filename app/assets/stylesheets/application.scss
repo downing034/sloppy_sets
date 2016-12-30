@@ -11,7 +11,9 @@
  * It is generally better to create a new file per style scope.
  *
  */
+@import "bootstrap-sprockets";
 @import "bootstrap";
+@import "simple_calendar";
 
 
 /* Custom Color Variables */
@@ -23,12 +25,13 @@ $hover-orange: #fb8000;
   background-color: $team-blue;
 }
 
-
 /* General App Coloring */
 
 body {
   background-color: $background-grey;
 }
+
+/* Navbar stuff */
 
 .navbar {
   border-top-left-radius: 0;
@@ -73,3 +76,21 @@ ul.nav li:last-child a {
   padding-left: 0px;
   padding-right: 0px;
 }
+
+.simple-calendar .has-events {
+  background-color: $hover-orange;
+}
+
+.simple-calendar .next-month {
+  background-color: $team-blue;
+}
+
+.future {
+  background-color: $team-blue;
+}
+
+.past {
+  background-color: #000;
+}
+
+

@@ -6,8 +6,9 @@
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   %body
-    .container-fluid
-      = image_tag('volleyball-sunset.jpg', alt: 'volleyball sunset', class: 'img-responsive center-block col-xs-12', id: 'banner-image')
+    - if params[:action] == "dashboard" && params[:controller] == "static_pages"
+      = render 'layouts/home_image'
     .container-fluid
       = render 'layouts/navbar'
+    .container-fluid
       = yield
