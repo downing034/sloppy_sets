@@ -15,8 +15,8 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'haml-rails', '0.9.0'
-gem 'bootstrap', '~> 4.0.0.alpha3'
-gem 'bootstrap-sass', '~> 3.1.1'
+gem 'bootstrap-sass', '~> 3.3.6'
+gem 'simple_calendar', '2.0.3'
 
 group :development, :test do
   gem 'sqlite3'
@@ -33,6 +33,7 @@ group :development do
   gem 'listen', '~> 3.0.5'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'spring-commands-testunit'
 end
 
 group :production do
