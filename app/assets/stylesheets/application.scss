@@ -13,6 +13,7 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "simple_calendar";
 
 
 /* Custom Color Variables */
@@ -29,8 +30,6 @@ $hover-orange: #fb8000;
 body {
   background-color: $background-grey;
 }
-
-
 
 /* Navbar stuff */
 
@@ -76,6 +75,22 @@ ul.nav li:last-child a {
 #banner-image {
   padding-left: 0px;
   padding-right: 0px;
+}
+
+.simple-calendar .has-events {
+  background-color: $hover-orange;
+}
+
+.simple-calendar .next-month {
+  background-color: $team-blue;
+}
+
+.future {
+  background-color: $team-blue;
+}
+
+.past {
+  background-color: #000;
 }
 
 

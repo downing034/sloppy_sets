@@ -7,7 +7,7 @@
         %thead
           %tr
             %th Name
-            %th Start date
+            %th Date - Time
             %th
             %th
             %th
@@ -16,7 +16,7 @@
           - @events.each do |event|
             %tr
               %td= event.name
-              %td= event.start_date
+              %td= format_date(event.start_time)
               %td= link_to 'Show', event
               %td= link_to 'Edit', edit_event_path(event)
               %td= link_to 'Destroy', event, :method => :delete, :data => { :confirm => 'Are you sure?' }
@@ -24,3 +24,6 @@
       %br
     .panel-footer
       = link_to 'New Event', new_event_path
+
+    = render 'events/calendar'
+
