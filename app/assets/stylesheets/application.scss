@@ -99,20 +99,16 @@ ul.nav li:last-child a {
   .wday-5 {}
   .wday-6 {}
 
-  .today {}
+  .today {
+    background-color: $team-blue;
+  }
   .past {
     background-color: #333433;
   }
-  .future {
-    background-color: $team-blue;
-  }
-
+  .future {}
   .start-date {}
-
   .prev-month {}
-  .next-month {
-    background-color: $team-blue;
-  }
+  .next-month {}
   .current-month {}
 
   .has-events {
