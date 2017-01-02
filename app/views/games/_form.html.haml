@@ -1,0 +1,40 @@
+= form_for @game do |f|
+  - if @game.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@game.errors.count, "error")} prohibited this game from being saved:"
+      %ul
+        - @game.errors.full_messages.each do |msg|
+          %li= msg
+
+  .field.form-group
+    = f.label :season
+    = f.text_field :season, class: 'form-control'
+  .field.form-group
+    = f.label :week
+    = f.number_field :week, class: 'form-control'
+  .field.form-group
+    = f.label :game
+    = f.number_field :game, class: 'form-control'
+  .field.form-group
+    = f.label :date
+    = f.date_select :date, class: 'form-control'
+  .field.form-group
+    = f.label :time
+    = f.time_select :time, class: 'form-control'
+  .field.form-group
+    = f.label :our_score, 'Our Score'
+    = f.number_field :our_score, class: 'form-control'
+  .field.form-group
+    = f.label :opponent_score, 'Opponent Score'
+    = f.number_field :opponent_score, class: 'form-control'
+  .field.form-group
+    = f.label :victory
+    = f.select :victory, [['Win', true], ['Loss', false]], class: 'form-control'
+  .field.form-group
+    = f.label :opponent
+    = f.text_field :opponent, class: 'form-control'
+  .field.form-group
+    = f.label :playoff_game, 'Playoff Game'
+    = f.select :playoff_game, [['Yes', true], ['No'], false], class: 'form-control'
+  .actions.form-group
+    = f.submit 'Save', class: 'btn btn-primary'
