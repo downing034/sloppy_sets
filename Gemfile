@@ -17,6 +17,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'haml-rails', '0.9.0'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'simple_calendar', '2.0.3'
+gem 'paperclip', '4.2.1'
 
 group :development, :test do
   gem 'sqlite3'
