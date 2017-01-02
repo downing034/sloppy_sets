@@ -1,0 +1,42 @@
+.container-fluid
+  .panel.panel-default
+    .panel-heading
+      %h3.panel-title Game Stats
+    .panel-body
+      %table.table.table-responsive.table-hover
+        %thead
+          %tr
+            %th Season
+            %th Week
+            %th Game
+            %th Date
+            %th Time
+            %th Our Score
+            %th Opponent Score
+            %th Victory
+            %th Opponent
+            %th Playoff Game
+            %th
+            %th
+            %th
+
+        %tbody
+          - @games.each do |game|
+            %tr
+              %td= game.season
+              %td= game.week
+              %td= game.game
+              %td= format_date(game.date)
+              %td= time_only(game.time)
+              %td= game.our_score
+              %td= game.opponent_score
+              %td= win_or_loss_texts(game)
+              %td= game.opponent
+              %td= playoff_game_texts(game)
+              %td= link_to 'Show', game
+              %td= link_to 'Edit', edit_game_path(game)
+              %td= link_to 'Destroy', game, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+      %br
+      .panel-footer
+        = link_to 'New Game', new_game_path

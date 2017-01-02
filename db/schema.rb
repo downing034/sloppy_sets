@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170102081917) do
+ActiveRecord::Schema.define(version: 20170102205315) do
 
   create_table "calendars", force: :cascade do |t|
     t.string   "name"
@@ -25,6 +25,21 @@ ActiveRecord::Schema.define(version: 20170102081917) do
     t.datetime "updated_at",  null: false
     t.integer  "calendar_id"
     t.index ["calendar_id"], name: "index_events_on_calendar_id"
+  end
+
+  create_table "games", force: :cascade do |t|
+    t.string   "season"
+    t.integer  "week"
+    t.integer  "game"
+    t.date     "date"
+    t.time     "time"
+    t.integer  "our_score"
+    t.integer  "opponent_score"
+    t.boolean  "victory"
+    t.string   "opponent"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
+    t.boolean  "playoff_game"
   end
 
   create_table "players", force: :cascade do |t|
