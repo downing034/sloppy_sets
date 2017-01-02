@@ -42,7 +42,7 @@
         .well
           %center
             %a{"data-target" => "#modal-#{player.id}", "data-toggle" => "modal", :href => "#aboutModal"}
-              %img.img-circle{:height => "140", :name => "aboutme", :src => "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R", :width => "140"}/
+              %img.img-circle{:height => "140", :name => "aboutme", :src => "#{player.avatar.url}", :width => "140"}/
             %h3
               = full_display_name(player)
             %em click my face for more
@@ -56,7 +56,7 @@
                   = "More about #{player.first_name}"
               .modal-body
                 %center
-                  %img.img-circle{:border => "0", :height => "140", :name => "aboutme", :src => "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R", :width => "140"}/
+                  %img.img-circle{:border => "0", :height => "140", :name => "aboutme", :src => "#{player.avatar.url}", :width => "140"}/
                   %h3.media-heading
                     = full_display_name(player)
                     %small
