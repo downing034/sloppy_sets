@@ -1,0 +1,42 @@
+.container-fluid
+  .panel.panel-default
+    .panel-heading
+      %h3.panel-title
+      = "#{@game.season} | #{@game.week} | #{@game.game}"
+      %p#notice= notice
+    .panel-body
+      %p
+        %b Season:
+        = @game.season
+      %p
+        %b Week:
+        = @game.week
+      %p
+        %b Game:
+        = @game.game
+      %p
+        %b Date:
+        = format_date(@game.date)
+      %p
+        %b Time:
+        = time_only(@game.time)
+      %p
+        %b Our Score:
+        = @game.our_score
+      %p
+        %b Opponent Score:
+        = @game.opponent_score
+      %p
+        %b Victory:
+        = win_or_loss_texts(@game)
+      %p
+        %b Opponent:
+        = @game.opponent
+      %p
+        %b Playoff Game:
+        = playoff_game_texts(@game)
+
+    .panel-footer
+      = link_to 'Edit', edit_game_path(@game)
+      \|
+      = link_to 'Back', games_path

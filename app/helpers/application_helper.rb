@@ -4,7 +4,11 @@ module ApplicationHelper
     date_time.strftime('%I:%M %P')
   end
 
-  def format_date(date)
+  def format_date_time(date)
     date.strftime('%m/%d/%Y  -  %I:%M %P')
+  end
+
+  def format_date(date)
+    date.strftime('%m/%d/%Y')
   end
 end

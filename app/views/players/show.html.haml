@@ -2,7 +2,7 @@
   .panel.panel-default
     .panel-heading
       %h3.panel-title
-      = "#{@player.first_name} #{@player.last_name}"
+      = full_display_name(@player)
     .panel-body
       %p#notice= notice
 
