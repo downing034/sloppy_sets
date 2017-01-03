@@ -1,12 +1,6 @@
-#fb-root
-:javascript
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=1745028265719575";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-
 .container-fluid
-  %iframe#facebook-feed{:allowtransparency => "true", :frameborder => "0", :height => "500px", :scrolling => "no", :src => "https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FPepperJaxPhillyExpress%2F&tabs=timeline&width=500px&height=500px&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId", :style => "border:none;overflow:hidden", :width => "500px"}
+  .panel.panel-default
+    .panel-heading
+      %h3.panel-title Sloppy Sets Game Schedule
+    .panel-body
+      %iframe{frameborder: "0", height: "600", scrolling: "no", src: "https://calendar.google.com/calendar/embed?showTitle=0&height=600&wkst=1&bgcolor=%23ffffff&src=40f8p0eoo6ksea7c73057vjmuo%40group.calendar.google.com&color=%23B1440E&ctz=America%2FChicago", style: "border-width:0", width: "100%"}
