@@ -39,7 +39,8 @@ Player.create first_name:    'Paul',
               profile_image_file_name: nil,
               profile_image_content_type: nil,
               profile_image_file_size: nil,
-              profile_image_updated_at: nil
+              profile_image_updated_at: nil,
+              vb_iq: 134
 
 # Default stats
 # S1 W1
