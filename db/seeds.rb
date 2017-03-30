@@ -385,6 +385,288 @@ Game.create season: "Fall 2016",
             playoff_game: true
 
 
+# S2 W1
+Game.create season: "Winter 2017",
+            week: 1,
+            game: 1,
+            date: "2017-01-15",
+            time: "2000-01-01 16:00:00",
+            our_score: 21,
+            opponent_score: 25,
+            victory: false,
+            opponent: "Set Panthers",
+            playoff_game: false
+
+Game.create season: "Winter 2017",
+            week: 1,
+            game: 2,
+            date: "2017-01-15",
+            time: "2000-01-01 16:00:00",
+            our_score: 16,
+            opponent_score: 25,
+            victory: false,
+            opponent: "Set Panthers",
+            playoff_game: false
+
+Game.create season: "Winter 2017",
+            week: 1,
+            game: 3,
+            date: "2017-01-15",
+            time: "2000-01-01 16:00:00",
+            our_score: 25,
+            opponent_score: 22,
+            victory: true,
+            opponent: "Set Panthers",
+            playoff_game: false
+
+# S2 W2
+Game.create season: "Winter 2017",
+            week: 2,
+            game: 1,
+            date: "2017-01-22",
+            time: "2000-01-01 19:00:00",
+            our_score: 25,
+            opponent_score: 18,
+            victory: true,
+            opponent: "Haiwatha Church",
+            playoff_game: false
+
+Game.create season: "Winter 2017",
+            week: 2,
+            game: 2,
+            date: "2017-01-22",
+            time: "2000-01-01 19:00:00",
+            our_score: 19,
+            opponent_score: 25,
+            victory: false,
+            opponent: "Haiwatha Church",
+            playoff_game: false
+
+Game.create season: "Winter 2017",
+            week: 2,
+            game: 3,
+            date: "2017-01-22",
+            time: "2000-01-01 19:00:00",
+            our_score: 25,
+            opponent_score: 22,
+            victory: true,
+            opponent: "Haiwatha Church",
+            playoff_game: false
+
+# S2 W3
+Game.create season: "Winter 2017",
+            week: 3,
+            game: 1,
+            date: "2017-01-29",
+            time: "2000-01-01 20:00:00",
+            our_score: 25,
+            opponent_score: 11,
+            victory: true,
+            opponent: "Diggin' It",
+            playoff_game: false
+
+Game.create season: "Winter 2017",
+            week: 3,
+            game: 2,
+            date: "2017-01-29",
+            time: "2000-01-01 20:00:00",
+            our_score: 25,
+            opponent_score: 18,
+            victory: true,
+            opponent: "Diggin' It",
+            playoff_game: false
+
+Game.create season: "Winter 2017",
+            week: 3,
+            game: 3,
+            date: "2017-01-29",
+            time: "2000-01-01 20:00:00",
+            our_score: 25,
+            opponent_score: 14,
+            victory: true,
+            opponent: "Diggin' It",
+            playoff_game: false
+
+# S2 W4
+Game.create season: "Winter 2017",
+            week: 4,
+            game: 1,
+            date: "2017-02-12",
+            time: "2000-01-01 19:00:00",
+            our_score: 25,
+            opponent_score: 21,
+            victory: true,
+            opponent: "Hippopotamus",
+            playoff_game: false
+
+Game.create season: "Winter 2017",
+            week: 4,
+            game: 2,
+            date: "2017-02-12",
+            time: "2000-01-01 19:00:00",
+            our_score: 25,
+            opponent_score: 22,
+            victory: true,
+            opponent: "Hippopotamus",
+            playoff_game: false
+
+Game.create season: "Winter 2017",
+            week: 4,
+            game: 3,
+            date: "2017-02-12",
+            time: "2000-01-01 19:00:00",
+            our_score: 22,
+            opponent_score: 25,
+            victory: false,
+            opponent: "Hippopotamus",
+            playoff_game: false
+
+# S2 W5
+Game.create season: "Winter 2017",
+            week: 5,
+            game: 1,
+            date: "2017-02-19",
+            time: "2000-01-01 17:00:00",
+            our_score: 25,
+            opponent_score: 18,
+            victory: true,
+            opponent: "Kanto Compatriots",
+            playoff_game: false
+
+Game.create season: "Winter 2017",
+            week: 5,
+            game: 2,
+            date: "2017-02-19",
+            time: "2000-01-01 17:00:00",
+            our_score: 25,
+            opponent_score: 15,
+            victory: true,
+            opponent: "Kanto Compatriots",
+            playoff_game: false
+
+Game.create season: "Winter 2017",
+            week: 5,
+            game: 3,
+            date: "2017-02-19",
+            time: "2000-01-01 17:00:00",
+            our_score: 25,
+            opponent_score: 11,
+            victory: true,
+            opponent: "Kanto Compatriots",
+            playoff_game: false
+
+# S2 W6
+Game.create season: "Winter 2017",
+            week: 6,
+            game: 1,
+            date: "2017-02-26",
+            time: "2000-01-01 20:00:00",
+            our_score: 10,
+            opponent_score: 25,
+            victory: false,
+            opponent: "How I Set Your Mother",
+            playoff_game: false
+
+Game.create season: "Winter 2017",
+            week: 6,
+            game: 2,
+            date: "2017-02-26",
+            time: "2000-01-01 20:00:00",
+            our_score: 23,
+            opponent_score: 25,
+            victory: false,
+            opponent: "How I Set Your Mother",
+            playoff_game: false
+
+Game.create season: "Winter 2017",
+            week: 6,
+            game: 3,
+            date: "2017-02-26",
+            time: "2000-01-01 20:00:00",
+            our_score: 25,
+            opponent_score: 18,
+            victory: true,
+            opponent: "How I Set Your Mother",
+            playoff_game: false
+
+# S2 W7
+Game.create season: "Winter 2017",
+            week: 7,
+            game: 1,
+            date: "2017-03-05",
+            time: "2000-01-01 17:00:00",
+            our_score: 25,
+            opponent_score: 20,
+            victory: true,
+            opponent: "Ermahgerd Gryffinderr",
+            playoff_game: false
+
+Game.create season: "Winter 2017",
+            week: 7,
+            game: 2,
+            date: "2017-03-05",
+            time: "2000-01-01 17:00:00",
+            our_score: 25,
+            opponent_score: 21,
+            victory: true,
+            opponent: "Ermahgerd Gryffinderr",
+            playoff_game: false
+
+Game.create season: "Winter 2017",
+            week: 7,
+            game: 3,
+            date: "2017-03-05",
+            time: "2000-01-01 17:00:00",
+            our_score: 25,
+            opponent_score: 17,
+            victory: true,
+            opponent: "Ermahgerd Gryffinderr",
+            playoff_game: false
+
+# S2 W8
+Game.create season: "Winter 2017",
+            week: 8,
+            game: 1,
+            date: "2017-03-12",
+            time: "2000-01-01 18:00:00",
+            our_score: 25,
+            opponent_score: 16,
+            victory: true,
+            opponent: "Leapfrogs",
+            playoff_game: false
+
+Game.create season: "Winter 2017",
+            week: 8,
+            game: 2,
+            date: "2017-03-12",
+            time: "2000-01-01 18:00:00",
+            our_score: 26,
+            opponent_score: 24,
+            victory: true,
+            opponent: "Leapfrogs",
+            playoff_game: false
+
+Game.create season: "Winter 2017",
+            week: 8,
+            game: 3,
+            date: "2017-03-12",
+            time: "2000-01-01 18:00:00",
+            our_score: 25,
+            opponent_score: 18,
+            victory: true,
+            opponent: "Leapfrogs",
+            playoff_game: false
+
+
+
+
+
+
+
+
+
+
+
 
 
 
